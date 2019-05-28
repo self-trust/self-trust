@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Shampoo | Self-Trust</title>
+    <title>AquaVit | Self-Trust</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="Encuentra los mejores productos que haran resaltar tu belleza. Confiar en nosotros es confiar en ti.">
@@ -25,7 +25,7 @@
         <article class="product-article">
           <section class="product-info">
             <div class="product-info__img"><img src="/self-trust/assets/img/products/shampoo.png" alt="Shampoo"/></div>
-            <h2 class="product-info__title">Shampoo</h2>
+            <h2 class="product-info__title">AquaVit</h2>
             <p class="product-info__desc" id="productDesc"></p>
             <h3 class="product-info__subtitle">Ingredientes</h3>
             <ul class="product-ingredients">
@@ -34,6 +34,8 @@
               <li class="product-ingredients__item">15 cucharas de jabón neutro rallado (el de su preferencia)</li>
               <li class="product-ingredients__item">60 gotas máximo de aceite esencial</li>
             </ul>
+            <h3 class="product-info__subtitle">Modo de uso</h3>
+            <p class="product-info__desc" id="productUse"></p>
           </section>
         </article>
       </div>
@@ -42,7 +44,9 @@
         <br/><br/>Después de retirar del fuego el agua se le agregan las dos cucharadas de hierbas secas y se tapa durante 20 minutos.
         <br/><br/>Se cuela y se agrega el jabón rallado, se espera a que se derrita, después de esto se guarda en una botella opaca para que no le dé el sol. El shampoo dura hasta un mes.
         `
+        let productUse = `Aplicar en el cabello durante el baño y retirarlo con agua.`
         
+        document.getElementById('productUse').innerHTML = productUse
         document.getElementById('productDesc').innerHTML = productDescc
       </script>
     </main>

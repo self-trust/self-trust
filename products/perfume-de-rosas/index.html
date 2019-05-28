@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Perfume de rosas | Self-Trust</title>
+    <title>AbsoluteBlack | Self-Trust</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="Encuentra los mejores productos que haran resaltar tu belleza. Confiar en nosotros es confiar en ti.">
@@ -25,7 +25,7 @@
         <article class="product-article">
           <section class="product-info">
             <div class="product-info__img"><img src="/self-trust/assets/img/products/perfume-de-rosas.png" alt="Perfume de rosas"/></div>
-            <h2 class="product-info__title">Perfume de rosas</h2>
+            <h2 class="product-info__title">AbsoluteBlack</h2>
             <p class="product-info__desc" id="productDesc"></p>
             <h3 class="product-info__subtitle">Ingredientes</h3>
             <ul class="product-ingredients">
@@ -35,6 +35,8 @@
               <li class="product-ingredients__item">4 cucharadas de aceite de almendras o aguacate.</li>
               <li class="product-ingredients__item">1 taza de alcohol (alcohol de tapa azul) y otra de agua.</li>
             </ul>
+            <h3 class="product-info__subtitle">Modo de uso</h3>
+            <p class="product-info__desc" id="productUse"></p>
           </section>
         </article>
       </div>
@@ -42,7 +44,9 @@
         let productDescc = `Se trituran las flores y las hierbas antes de mezclar todos los productos que necesitan, se mezcla y se mezcla y se dejan reposar durante 15 días.
         <br/><br/>Al terminar este periodo, hay que colar la mezcla antes de disfrutarla.
         `
+        let productUse = `Aplicar sobre la superficie de la ropa o si así se desea, sobre la piel en la zona en la que se prefiera aplicar. Debe ser aplicado con atomizador o manualmente.`
         
+        document.getElementById('productUse').innerHTML = productUse
         document.getElementById('productDesc').innerHTML = productDescc
       </script>
     </main>

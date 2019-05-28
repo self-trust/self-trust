@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Polvo de arroz | Self-Trust</title>
+    <title>Ricedy | Self-Trust</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="Encuentra los mejores productos que haran resaltar tu belleza. Confiar en nosotros es confiar en ti.">
@@ -25,18 +25,23 @@
         <article class="product-article">
           <section class="product-info">
             <div class="product-info__img"><img src="/self-trust/assets/img/products/polvo-de-arroz.png" alt="Polvo de arroz"/></div>
-            <h2 class="product-info__title">Polvo de arroz</h2>
+            <h2 class="product-info__title">Ricedy</h2>
             <p class="product-info__desc" id="productDesc"></p>
             <h3 class="product-info__subtitle">Ingredientes</h3>
             <ul class="product-ingredients">
               <li class="product-ingredients__item">1 taza de arroz</li>
             </ul>
+            <h3 class="product-info__subtitle">Modo de uso</h3>
+            <p class="product-info__desc" id="productUse"></p>
           </section>
         </article>
       </div>
       <script>
         let productDescc = `El polvo de arroz te ayudará a calmar irritaciones, combate el acné, dará una apariencia mate a tu piel, la exfoliará, calma rozaduras y erupciones, es rico en Vitamina B y tiene 10% de ácido fítico, que permite a las células muertas desprenderse y previene que se active la enzima que forma la melanina.`
         
+        let productUse = `Aplicar con brocha sobre el rostro, dejar reposar y retirar con agua.`
+        
+        document.getElementById('productUse').innerHTML = productUse
         document.getElementById('productDesc').innerHTML = productDescc
       </script>
     </main>

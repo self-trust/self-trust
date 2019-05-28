@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Agua de arroz | Self-Trust</title>
+    <title>Natural Beauty | Self-Trust</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="Encuentra los mejores productos que haran resaltar tu belleza. Confiar en nosotros es confiar en ti.">
@@ -25,13 +25,15 @@
         <article class="product-article">
           <section class="product-info">
             <div class="product-info__img"><img src="/self-trust/assets/img/products/agua-de-arroz.png" alt="Agua de arroz"/></div>
-            <h2 class="product-info__title">Agua de arroz</h2>
+            <h2 class="product-info__title">Natural Beauty</h2>
             <p class="product-info__desc" id="productDesc"></p>
             <h3 class="product-info__subtitle">Ingredientes</h3>
             <ul class="product-ingredients">
               <li class="product-ingredients__item">1 taza de arroz</li>
               <li class="product-ingredients__item">1 taza y media de agua destilada.</li>
             </ul>
+            <h3 class="product-info__subtitle">Modo de uso</h3>
+            <p class="product-info__desc" id="productUse"></p>
           </section>
         </article>
       </div>
@@ -42,6 +44,9 @@
         <br/><br/>Para aquellas personas que sufren de la alteración en la piel conocida como rosácea también puede ser útil. Este tónico es ideal para calmar las irritaciones y suavizar la piel.
         `
         
+        let productUse = `Aplicar sobre la zona del cuero cabelludo que se busca hidratar y tonificar.`
+        
+        document.getElementById('productUse').innerHTML = productUse
         document.getElementById('productDesc').innerHTML = productDescc
       </script>
     </main>

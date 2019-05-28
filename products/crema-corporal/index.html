@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Crema Corporal | Self-Trust</title>
+    <title>BeCream | Self-Trust</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="Encuentra los mejores productos que haran resaltar tu belleza. Confiar en nosotros es confiar en ti.">
@@ -25,7 +25,7 @@
         <article class="product-article">
           <section class="product-info">
             <div class="product-info__img"><img src="/self-trust/assets/img/products/crema-corporal.png" alt="Crema Corporal"/></div>
-            <h2 class="product-info__title">Crema Corporal</h2>
+            <h2 class="product-info__title">BeCream</h2>
             <p class="product-info__desc" id="productDesc"></p>
             <h3 class="product-info__subtitle">Ingredientes</h3>
             <ul class="product-ingredients">
@@ -36,6 +36,8 @@
               <li class="product-ingredients__item">Vitamina E</li>
               <li class="product-ingredients__item">Colorante vegetal (colores en gel grado alimenticio en tono pastel)</li>
             </ul>
+            <h3 class="product-info__subtitle">Modo de uso</h3>
+            <p class="product-info__desc" id="productUse"></p>
           </section>
         </article>
       </div>
@@ -45,7 +47,10 @@
           <br/><br/><strong>Aceite de almendras. –</strong>  Ayuda a mantener los niveles de hidratación de la piel y se absorbe en un momento, sin bloquear los poros.
           <br/><br/><strong>Aceite de coco. –</strong>  Por sus propiedades antibióticas es un buen remedio para prevenir el acné y otros problemas en la piel.`
         
+        let productUse = `Aplicar en la zona deseada a hidratar o tratar.`
+        
         document.getElementById('productDesc').innerHTML = productDescc
+        document.getElementById('productUse').innerHTML = productUse
       </script>
     </main>
     <script src="/self-trust/assets/js/script.js"></script>

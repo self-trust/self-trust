@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hidrolato de rosas | Self-Trust</title>
+    <title>Bella | Self-Trust</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="Encuentra los mejores productos que haran resaltar tu belleza. Confiar en nosotros es confiar en ti.">
@@ -25,7 +25,7 @@
         <article class="product-article">
           <section class="product-info">
             <div class="product-info__img"><img src="/self-trust/assets/img/products/hidrolato-de-rosas.png" alt="Hidrolato de rosas"/></div>
-            <h2 class="product-info__title">Hidrolato de rosas</h2>
+            <h2 class="product-info__title">Bella</h2>
             <p class="product-info__desc" id="productDesc"></p>
             <h3 class="product-info__subtitle">Ingredientes</h3>
             <ul class="product-ingredients">
@@ -33,6 +33,8 @@
               <li class="product-ingredients__item">5 rosas</li>
               <li class="product-ingredients__item">Hielo</li>
             </ul>
+            <h3 class="product-info__subtitle">Modo de uso</h3>
+            <p class="product-info__desc" id="productUse"></p>
           </section>
         </article>
       </div>
@@ -40,7 +42,9 @@
         let productDescc = `Un hidrolato es el agua floral que resulta del proceso de destilación por vapor del aceite        esencial de la planta. Por tanto, las aguas florales o hidrolatos son puros, sin añadidos. En las etiquetas de los hidrolatos, si se encuentra escrito “agua más otros ingredientes”, no es un hidrolato ya que la etiqueta de un hidrolato pondrá que es un hidrolato, sin más. Tiene infinidad de usos, pero en cosmética es utilizado como tónico facial especialmente indicado para pieles envejecidas gracias a sus propiedades regeneradoras, pieles grasas por sus propiedades astringentes y/o pieles sensibles por sus propiedades antiinflamatorias. Como bruma facial, tras un baño de sol, para refrescar y tonificar la piel en cualquier momento. Incluso tras hacer deporte. 
         <br/><br/>También se usa para fijar o refrescar una base de maquillaje, una vez finalizado el maquillaje, pulveriza sobre la piel ligeramente, eso sí evita los ojos para no estropear el maquillaje de esa zona con el pestañeo. Otro de sus usos sería utilizarlo como perfume o fragancia absolutamente natural en cualquier momento ya que al aplicarlo perfuma la piel y la ropa. En el hogar se puede utilizar para aromatizar las habitaciones o como bruma de almohada. Se trata de un producto versátil al que se le pueden dar una multitud de usos. El hidrolato de rosas también es perfecto para usarse como base a la hora de hacer agua de colonia y también para utilizar en los humificadores.
         `
+        let productUse = `Aplicar con un atomizador en el rostro, dejar reposar y retirar con agua.`
         
+        document.getElementById('productUse').innerHTML = productUse
         document.getElementById('productDesc').innerHTML = productDescc
       </script>
     </main>

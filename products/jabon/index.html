@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Jabón | Self-Trust</title>
+    <title>Body-Fresh | Self-Trust</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="Encuentra los mejores productos que haran resaltar tu belleza. Confiar en nosotros es confiar en ti.">
@@ -25,7 +25,7 @@
         <article class="product-article">
           <section class="product-info">
             <div class="product-info__img"><img src="/self-trust/assets/img/products/jabon.png" alt="Jabón"/></div>
-            <h2 class="product-info__title">Jabón</h2>
+            <h2 class="product-info__title">Body-Fresh</h2>
             <p class="product-info__desc" id="productDesc"></p>
             <h3 class="product-info__subtitle">Ingredientes</h3>
             <ul class="product-ingredients">
@@ -41,6 +41,8 @@
               <li class="product-ingredients__item">Alcohol de tapa azul</li>
               <li class="product-ingredients__item">Se le pueden agregar rajitas de canela, romero, menta, etc para decorar</li>
             </ul>
+            <h3 class="product-info__subtitle">Modo de uso</h3>
+            <p class="product-info__desc" id="productUse"></p>
           </section>
         </article>
       </div>
@@ -49,6 +51,9 @@
         <br/><br/>Posteriormente se agrega el colorante y se vacía en los moldes los cuales se deben rociar previamente con alcohol para facilitar su desmoldado.
         <br/><br/>Se dejan enfriar y se refrigeran 30 minutos para su posterior desmoldado.`
         
+        let productUse = `Poner el producto en contacto con el cuerpo a la hora de la ducha o si así se decide sólo en las zonas corporales que se desean limpiar.`
+        
+        document.getElementById('productUse').innerHTML = productUse
         document.getElementById('productDesc').innerHTML = productDescc
       </script>
     </main>
