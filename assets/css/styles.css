@@ -494,5 +494,12 @@ figure {
   .product-ingredients__item {
     list-style-type: disc; }
 
+.agua-de-arroz img,
+.hidrolato-de-rosas img,
+.shampoo img,
+.crema-corporal img {
+  -o-object-fit: fill;
+     object-fit: fill; }
+
 .is-show-hb {
   left: 0; }
